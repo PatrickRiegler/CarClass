@@ -1,7 +1,8 @@
 public class Engine {
     private String engineType;
-    private int hp;
-    private int ccm;
+    private int performance;
+    private int engineCapacity;
+
 
     public String getEngineType() {
         return engineType;
@@ -11,19 +12,20 @@ public class Engine {
         this.engineType = engineType;
     }
 
-    public int getHp() {
-        return hp;
+    public int getPerformance() {
+        return performance;
     }
 
-    public void setHp(int hp) {
-        this.hp = hp;
+    public void setPerformance(int hp) {
+        this.performance = hp;
     }
 
-    public int getCcm() {
-        return ccm;
+    public int setEngineCapacity() {
+        return engineCapacity;
     }
 
-    public void setCcm(int ccm) {
-        this.ccm = ccm;
+    public void setEngineCapacity(int capacity) {
+        this.engineCapacity = capacity;
+
     }
 }
